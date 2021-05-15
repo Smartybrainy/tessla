@@ -4,7 +4,7 @@ import Section from './Section';
 
 function Home(props) {
     return (
-        <div>
+        <Container>
             <Section 
                 title="Model S"
                 description="Order Online for Touchless Deliver"
@@ -53,12 +53,12 @@ function Home(props) {
                 leftBtnText="Custom Order"
                     backgroundImg="accessories.jpg"
             />
-        </div>
+        </Container>
     );
 }
 
 export default Home;
 
-const container = styled.div`
+const Container = styled.div`
     height: 100vh;
 `
